@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const StyledAbout = styled.p`
   color: var(--colorText);
@@ -8,21 +8,20 @@ const StyledAbout = styled.p`
 `;
 
 type AboutProps = {
-  title? : string
-}
+  title?: string;
+};
 
 const About = ({ title }: AboutProps) => {
-
   return (
     <StyledAbout>
       {title}
       abouty about
     </StyledAbout>
-  )
-}
+  );
+};
 
 About.defaultProps = {
-  title: 'about'
-}
+  title: "about",
+};
 
 export { About as default };

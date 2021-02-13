@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const StyledHeader = styled.div`
   color: var(--colorPrimary);
@@ -7,20 +7,17 @@ const StyledHeader = styled.div`
 `;
 
 type HeaderProps = {
-  title? : string
-}
+  title?: string;
+};
 
-const Header: React.FunctionComponent<HeaderProps> = ({ title }: HeaderProps) => {
-
-  return (
-    <StyledHeader>
-      {title}
-    </StyledHeader>
-  )
-}
+const Header: React.FunctionComponent<HeaderProps> = ({
+  title,
+}: HeaderProps) => {
+  return <StyledHeader>{title}</StyledHeader>;
+};
 
 Header.defaultProps = {
-  title: "Tim M Day"
-}
+  title: "Tim M Day",
+};
 
 export { Header as default };

@@ -4,13 +4,11 @@ import './styles/typography.css';
 import './styles/theme.css';
 import './index.css';
 import AppRouter from './routers/AppRouter'
-import App from './App';
-
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppRouter />
+<AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );

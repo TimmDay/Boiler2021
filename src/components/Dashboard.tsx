@@ -6,13 +6,17 @@ const StyledDashboard = styled.div`
 `;
 
 type DashboardProps = {
-  name: string;
+  name?: string;
 };
 
 const Dashboard: React.FunctionComponent<DashboardProps> = ({
   name,
 }: DashboardProps) => {
-  return <StyledDashboard>this is dash</StyledDashboard>;
+  return (
+    <StyledDashboard>
+      <p>{name}, this is dash</p>
+    </StyledDashboard>
+  );
 };
 
 Dashboard.defaultProps = {

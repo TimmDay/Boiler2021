@@ -1,0 +1,19 @@
+:root {
+  --colorPrimary: #bada55;
+  --colorLink: #1890ff;
+  --colorSuccess: #52c41a;
+  --colorWarning: #faad14;
+  --colorError: #e84118;
+  --colorHeading: #423ea2;
+  --colorText: #000;
+  --colorDisabled: #f5222d;
+  --colorBorder: #423ea2;
+
+  --NONE: '0rem';
+  --XS: '2rem';
+  --S: '4rem';
+  --M: '8rem';
+  --L: '16rem';
+  --XL: '32rem';
+  --XXL: '64rem';
+}
